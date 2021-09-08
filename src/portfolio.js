@@ -10,12 +10,12 @@ const illustration = {
 
 const greeting = {
   username: "Manoj Kumar",
-  title: "Hi, I'm mak",
+  title: "Hi, I'm Mak",
   subTitle: emoji(
     "A passionate Full Stack Developer 🚀 with an experience in designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/1BT5zaTkpLizQ-kAvw_l5Snur84BhybuM/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -37,7 +37,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "BUDDING DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -76,10 +76,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -102,23 +99,21 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Lovely Professional University",
+      logo: require("./assets/images/lpu.png"),
+      subHeader: "Bachelor's Degree (honours) in Computer Science",
+      duration: "September 2017 - May 2021",
+      desc: "Majored in Full stack development, Attended various Bootcamps and deployed 20+ live projects",
+      
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      schoolName: "Narayana Junior College",
+      logo: require("./assets/images/nar.png"),
+      subHeader: "IIT-MPC stream",
+      duration: "may 2015 - April 2017",
       desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+        "Scored 97% in the board exam and qualified for JEE-Advanced",
+      
     }
   ]
 };
@@ -157,10 +152,10 @@ const workExperiences = {
       desc:
         "Enhancing Digital privacy, one line of code at a time.",
       descBullets: [
-        "Custom building backend servers",
+        "Writing backend scripts in python",
         
-        "Streaming live on YouTube",
-        "Creating tutorials"
+        "Scheduled Data shredding",
+        "Integrating payment outlets"
       ]
     },
     {
@@ -188,28 +183,39 @@ const openSource = {
 
 const bigProjects = {
   title: " Projects",
-  subtitle: "Some of my personal projects",
+  subtitle: "Things that took Inception from my boredom",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/native.png"),
+      projectName: "Native-view",
+      projectDesc: "A cross-platform desktop application made with Electron framework in ReactJS",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "fa"
+          name: "View code",
+          url: "https://github.com/manoj-mak/Native-view"
         }
          
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/doc.png"),
+      projectName: "DocMed",
+      projectDesc: "A PWA where patients and doctors can signup and schedule appointments",
       footerLink: [
         {
           name: "Visit Website",
-          url: ""
+          url: "https://telemedic-manoj.herokuapp.com"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/tinder.png"),
+      projectName: "Tinder clone",
+      projectDesc: "A clone version of the popular dating app tinder using the mern stack",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://tinder-clone-mak.web.app/"
         }
       ]
     }
